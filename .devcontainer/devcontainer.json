@@ -1,0 +1,23 @@
+{
+  "name": "vulpix-front-end",
+
+  "image": "mcr.microsoft.com/vscode/devcontainers/javascript-node",
+  "workspaceFolder": "/workspaces/vulpix-front-end",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-azuretools.vscode-docker",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode"
+      ],
+      "settings": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.codeActionsOnSave": {
+          "source.organizeImports": "always"
+        }
+      }
+    }
+  }
+}

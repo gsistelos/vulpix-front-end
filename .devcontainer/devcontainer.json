@@ -1,8 +1,9 @@
 {
   "name": "vulpix-front-end",
-
-  "image": "mcr.microsoft.com/vscode/devcontainers/javascript-node",
-  "workspaceFolder": "/workspaces/vulpix-front-end",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
 
   "customizations": {
     "vscode": {
